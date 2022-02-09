@@ -1,11 +1,12 @@
-import React from 'react'
+import React from "react";
+import './listcontainer.css'
+import Card from '../card/Card'
+
 
 const ListContainer = () => {
-    return (
-        <div>
-            <h2 className="">List Container</h2>
-        </div>
-    )
-}
+  return (
+        <Card/>    
+  );
+};
 
-export default ListContainer
+export default ListContainer;
