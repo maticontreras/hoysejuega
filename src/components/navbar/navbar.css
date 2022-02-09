@@ -1,5 +1,5 @@
 .navbar{
-    background-color: black;
+    background-color: white;
     width: 100%;
     height: 150px;
     display: flex;
@@ -35,9 +35,15 @@ li:hover{
 }
 
 
-.link{
+.link-navbar{
     font-size: 20px;
     text-transform: uppercase;
+    text-decoration: none;
+    color: #000000;
+}
+
+.link-navbar:hover{
+    color: #009254;
 }
 
 .logo{
