@@ -17,19 +17,19 @@ const Navbar = () => {
             </div>
             <div className="contenedor-links">
                 <li>
-                    <a className="link" src="#">Inicio</a>
+                    <a className="link-navbar" src="#">Inicio</a>
                 </li>
                 <li>
-                    <a className="link" src="#">Productos</a>
+                    <a className="link-navbar" src="#">Productos</a>
                 </li>
                 <li>
-                    <a className="link" src="#">Quienes Somos</a>
+                    <a className="link-navbar" src="#">Quienes Somos</a>
                 </li>
                 <li>
-                    <a className="link" src="#">Servicios</a>
+                    <a className="link-navbar" src="#">Servicios</a>
                 </li>
                 <li>
-                    <a className="link" src="#">Contacto</a>
+                    <a className="link-navbar" src="#">Contacto</a>
                 </li>
             </div>
             <CartWidget/>

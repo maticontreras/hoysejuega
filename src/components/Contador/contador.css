@@ -1,0 +1,45 @@
+.container-contador {
+  width: 259px;
+  height: 90px;
+  display: flex;
+  justify-content:center;
+}
+
+.boton-sumar {
+  width: 50px;
+  margin-left: 20px;
+  margin-left: 68px;
+  margin-top: 20px;
+  background-color: white;
+  border: none;
+}
+
+.boton-restar {
+    margin-left: -7px;
+    width: 50px;
+    margin-top: 20px;
+    background-color: white;
+    border: none;
+}
+
+.contador {
+  font-size: 2.5rem;
+  justify-content: center;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+.img-minus {
+  width: 25px;
+  height: 25px;
+}
+
+.img-plus {
+  width: 25px;
+  height: 25px;
+}
+
+.div-contendor{     
+    width: 103px;
+    margin-left: 7px;
+}
