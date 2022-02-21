@@ -1,10 +1,10 @@
 import React from 'react'
 import ListContainer from '../ListContainer/ListContainer'
-import './body.css'
-
+import './body.css' 
+ 
 const Body = () => {
     return (
-        <div className="main-container">
+        <div className="container-principal">
              <ListContainer/>
         </div>
     )

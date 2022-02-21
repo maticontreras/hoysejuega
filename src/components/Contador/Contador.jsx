@@ -7,11 +7,11 @@ const Contador = ({stock , initial}) => {
   
   const [contador, setContador] = useState(initial);
   const handlerRemove = () => { 
-        contador > initial ? setContador(contador - 1) : alert('El stock no puede ser menor que 1')
+        contador > initial ? setContador(contador - 1) : console.log('El stock no puede ser menor que 1')
   }
   
   const handlerAdd = () => {
-        contador < stock ? setContador(contador + 1) : alert('Superaste el stock')
+        contador < stock ? setContador(contador + 1) : console.log('Superaste el stock')
   }
 
   return (
