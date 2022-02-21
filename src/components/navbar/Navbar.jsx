@@ -1,7 +1,12 @@
 import React from 'react';
 import './navbar.css'
-import Logo from '../assets/logo-editado.svg'
+import Logo from '../../assets/logo-editado.svg'
+import CartWidget from '../cartwidget/CartWidget';
+import { Link } from 'react-router-dom'
 {/*import {ReactComponent as ReactLogo} from '../assets/logo-editado.svg';*/}
+
+
+
 
 
 const Navbar = () => {
@@ -13,24 +18,22 @@ const Navbar = () => {
             </div>
             <div className="contenedor-links">
                 <li>
-                    <a className="link" src="#">Inicio</a>
+                    <Link className="link-navbar" to={"/"}>Inicio</Link>
                 </li>
                 <li>
-                    <a className="link" src="#">Productos</a>
+                    <Link className="link-navbar" to={"/productos"}>Productos</Link>
                 </li>
                 <li>
-                    <a className="link" src="#">Quienes Somos</a>
+                    <Link className="link-navbar" to={"/quienes-somos"} >Quienes Somos</Link>
                 </li>
                 <li>
-                    <a className="link" src="#">Servicios</a>
+                    <Link className="link-navbar" to={"/servicios"}>Servicios</Link>
                 </li>
                 <li>
-                    <a className="link" src="#">Contacto</a>
+                    <Link className="link-navbar" to={"/contacto"}>Contacto</Link>
                 </li>
             </div>
-            <div className="contenedor-signin">
-                <button>Sign In</button>
-            </div> 
+            <CartWidget/>
        </div> 
 
   

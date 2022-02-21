@@ -1,0 +1,34 @@
+.cart-icon{
+    width: 24px;
+    height: 24px;
+   /* float: left;
+    margin-left: 40px;
+    margin-top: 24px;*/
+    
+}
+
+.contenedor-carrito{
+    background-color: #ffffff;
+    width: 10%;
+    height: 150px;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+}
+
+.carrito{
+    height: 75px;
+    width: 127px;
+    color: white;
+    background-color: #009254;
+    border: none;
+    padding-top: 21px;
+    padding-left: 46px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+span{
+    margin-right: 36px;
+    text-decoration: none;
+}

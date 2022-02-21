@@ -1,5 +1,5 @@
 .navbar{
-    background-color: black;
+    background-color: white;
     width: 100%;
     height: 150px;
     display: flex;
@@ -23,25 +23,6 @@
     font-size: 20px;
 }
 
-.contenedor-signin{
-    background-color: #ffffff;
-    width: 10%;
-    height: 150px;
-    display: flex;  
-    justify-content: center;
-    align-items: center;
-}
-
-button{
-    height: 75px;
-    width: 127px;
-    color: white;
-    background-color: #009254;
-    border: none;
-    font-size: 18px;
-    text-transform: uppercase;
-}
-
 li{
     text-decoration: none!important;
     list-style:none;
@@ -54,9 +35,15 @@ li:hover{
 }
 
 
-.link{
+.link-navbar{
     font-size: 20px;
     text-transform: uppercase;
+    text-decoration: none;
+    color: #000000;
+}
+
+.link-navbar:hover{
+    color: #009254;
 }
 
 .logo{

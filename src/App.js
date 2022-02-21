@@ -1,14 +1,12 @@
-
-import './App.css';
-import Navbar from './components/index';
-
-
+import "./App.css";
+import 'bootstrap/dist/css/bootstrap.css';
+import Rutas from './routes';
 
 
 function App() {
-  return (
-      <Navbar/>
-  );
+  return <>
+    <Rutas/>
+  </>;
 }
 
 export default App;

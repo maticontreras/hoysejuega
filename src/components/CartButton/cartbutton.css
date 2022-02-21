@@ -1,0 +1,18 @@
+.cartButton{
+   
+    width: 100%;
+    background: white;
+    border: 1px solid green;
+}
+
+button{
+    width: 100%;
+    background: white;
+    border: 1px solid green;
+}
+
+.addText{
+    margin-left: 40px;
+}
+
+
