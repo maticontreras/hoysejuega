@@ -1,4 +1,4 @@
-# PROYCTO - HOY SE JUEGA
+# PROYECTO - HOY SE JUEGA
 
 El sitio ofrecerá productos y servicios relacionados con el fútbol. Entre los productos, a modo de ejemplo, cuenta con el modo de alquiler de canchas de fútbol, se irán agregando nuevas funciones y productos nuevos como equipamiento deportivo, cursos etc.
 
