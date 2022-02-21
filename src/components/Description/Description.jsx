@@ -5,8 +5,8 @@ import {Link} from 'react-router-dom'
 const Description = ({item}) => {
     return (
         <div className="descriptionButton"> 
-            <Link to={`/productos/${item}`} className="descriptionButton" >
-                <span className="addText">Ver descripción</span>
+            <Link to={`/productos/${item}`} className="addText" >
+                <span>Ver descripción</span>
             </Link>
         </div>
     );

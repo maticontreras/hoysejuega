@@ -1,30 +1,31 @@
 import React, { useState , useEffect } from "react";
 import './listcontainer.css'
 import Card from '../card/Card'
-import imagenCancha from "../../assets/images/cancha-futbol.jpeg";
-
+import promo1 from "../../assets/images/thumbnail1.jpeg";
+import promo2 from "../../assets/images/foto01-madero.jpeg";
+import promo3 from "../../assets/images/fot01-elpredio.jpeg";
 
 const ListContainer = () => {
   const data = [
     {
       id: 1,
       name: "Sportivo Barracas",
-      img: imagenCancha,
-      stock: "19",
+      img: promo1,
+      stock: 10,
       direccion: "Padre carlos Mujica 199 , Capital Federal",
     },
     {
       id: 2,
-      name: "Pressing",
-      img: imagenCancha,
-      stock: "4",
+      name: "El Predio",
+      img: promo2,
+      stock: 4,
       direccion: "Julio Argentino Noble 4100 , Capital Federal",
     },
     {
       id: 3,
-      name: "Campus",
-      img: imagenCancha,
-      stock: "5",
+      name: "Futbol Madero",
+      img: promo3,
+      stock: 5,
       direccion: "Padre carlos Mujica 199 , Capital Federal",
     },
   ];
