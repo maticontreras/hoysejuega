@@ -1,8 +1,9 @@
 .cart-icon{
     width: 24px;
     height: 24px;
-    float: left;
+   /* float: left;
     margin-left: 40px;
+    margin-top: 24px;*/
     
 }
 
@@ -21,10 +22,13 @@
     color: white;
     background-color: #009254;
     border: none;
+    padding-top: 21px;
+    padding-left: 46px;
     font-size: 18px;
     text-transform: uppercase;
 }
 
 span{
     margin-right: 36px;
+    text-decoration: none;
 }
