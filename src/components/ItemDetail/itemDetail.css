@@ -1,0 +1,93 @@
+.row{
+    width:1500px;
+    height:1200px;
+    margin: auto;
+    border: 1px solid rgba(0,0,0,.1);
+    margin-top: 24px;
+}
+
+.contenedor-img {
+    height: 100%;
+    padding: 30px;
+}
+
+.wrapper-miniaturas{
+    height: 100%;
+    padding: 10px;
+}
+
+.miniaturas{
+    border: 1px solid #009254;
+    height: 19%;
+    margin-bottom: 7px;
+}
+
+.miniatura{
+    width:100%;
+    height: 100%;
+}
+
+.foto-principal{
+    width: 100%;
+    height: 100%;
+}
+
+.contenedor-ver{
+    padding: 20px;
+}
+
+
+.wrapper-principal{
+    height: 100%;
+    padding: 20px;
+    padding-top: 45px;
+}
+
+.contenedor-descripcion{
+    height: 40%;
+    padding: 10px;
+    display:flex;
+}
+
+.wrapper-descripcion{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-top: 0.5px solid rgba(0,0,0,.1);
+    border-bottom: 0.5px solid rgba(0,0,0,.1);
+    padding: 20px;
+}
+
+
+.wrapper-contador{
+    padding: 20px;
+    padding-left: 75px;
+}
+
+
+.addtoCart{
+    background-color: #009254;
+    height: 60px;
+    padding: 15px;
+}
+
+.cantidad-stock{
+    color: #a3a3a3;
+    margin-left: 50px;
+}
+
+.addtoCarttext{
+    color: white;
+    font-size: 18px;
+}
+
+.contenedor-der{
+    height: 100%;
+    padding: 30px;
+}
+
+.contenedor-ver{
+    height: 100%;
+    padding: 20px;
+    border: 1px solid rgba(0,0,0,.1);
+    border-radius: 8px;
+}
