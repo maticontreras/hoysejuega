@@ -1,6 +1,11 @@
-# Getting Started with Create React App
+# PROYCTO - HOY SE JUEGA
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+El sitio ofrecerá productos y servicios relacionados con el fútbol. Entre los productos, a modo de ejemplo, cuenta con el modo de alquiler de canchas de fútbol, se irán agregando nuevas funciones y productos nuevos como equipamiento deportivo, cursos etc.
+
+## FUNCIONAMIENTO
+
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/9719871/155037218-f275c1a1-0543-4be8-aac0-cbd70b79e051.gif)
+
 
 ## Available Scripts
 
